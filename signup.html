@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAP Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <a href=""><img src="images/akap.png" alt="AKAP" id="akapimg"></a>
+  </header>
+
+  <form id ="SIGNFORM" onsubmit="return save();">
+    <fieldset> 
+      <main class="main">
+        <legend> AKAP </legend>
+
+        <br>
+
+        <p>Required fields have <span>*</span></p>
+
+        <br>
+
+        <label for="fName"> <span>*</span>First Name:</label>
+        <input type="text" id="fName" name="firstname" onblur="Valid(this)" required>
+        <label for="lName"> <span>*</span>Last Name:</label>
+        <input type="text" id="lName" name="lastname" onblur="Valid(this)" required>
+        
+        <br><br>
+
+        <label for ="Gender"> <span>*</span>Sex:</label>
+        <input type="radio" id="male" name="gender" value="Male" onblur="Valid(this)">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" onblur="Valid(this)">
+        <label for="female">Female</label>
+        <input type="radio" id="prefnottosay" name="gender" value="Prefer not to say" onblur="Valid(this)">
+        <label for="prefnottosay">Prefer not to say</label>
+
+        <br><br>
+
+        <label for="Email"> <span>*</span>Email:</label> 
+        <input type = "Email" id="EWord" name="Email Adress: " onblur="Valid(this)" required>
+        <label for="password"> <span>*</span>Password:</label>
+        <input type = "password" id="pWord" name="Password " onblur="Valid(this)" required>
+
+        <br><br>
+
+        <label for="Birthday"> <span>*</span>Birthday: </label>
+        <input type="date" id="birthday" name="Birthday" onblur="Valid(this)" required>
+            
+        <br><br>
+
+        <label for="txtarea"> <span>*</span>Why do you support this campaign?</label> <br>
+        <textarea name="answer" id="txtarea" rows="8" cols="80" onblur="Valid(this)" required></textarea>
+      </main>
+      
+      <br><br><br>
+      
+      <aside class="buttons">
+        <a href="index.html" class="button">Go back</a>
+        <input type = "reset" value = "Reset" onclick="resetForm()" class="button"> 
+        <input type = "submit" value = "Sign Up" class="button"> 
+      </aside>  
+      
+      </fieldset>
+    </form>
+
+<br><br><br>
+
+<footer>
+  <a href="https://twitter.com/http_akap?fbclid=IwZXh0bgNhZW0CMTAAAR3EGMI2UedJaLo09FFCfWEO_7XIeJEmCjO4iFM5gG9rBXvTOvgejLfgaX4_aem_ASSa0SNhClYO0gANORg9_KuYlV8noWmiKYvl-I6lRefCSjOae0P1PCEPUESzi-VWyatTniX59zSu5m938ycgMCnw" id="twitter"><img src="images/twt.png" alt="TWT"></a>
+  <a href="https://www.facebook.com/AkapSMC"><img src="images/fb.png" alt="FB"></a>
+  <a href="https://www.instagram.com/http.akap?igsh=MmtyczZqbm8xMHFv"><img src="images/insta.png" alt="INSTA"></a>
+  <p>@http_akap</p>
+  <a href="#" id="gmail"><img src="images/gmail.png" alt="GMAIL"></a>
+  <p>akap.pshssmc@gmail.com</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caveat:wght@400..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Luckiest+Guy&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+body{
+    background-color: #F8EEE1;
+}
+header{
+    background-color: #829D78;
+    height: 7.099vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+#akapimg{
+    height: 32.5px;
+    width: 32.5px;
+    border-radius: 50%;
+    margin: 3px;
+}
+#section1{
+    text-align: center;
+    margin-top: 20vh;
+    height: 60vh;
+}
+section h1{
+    font-family: 'Lobster', cursive;
+    font-size: 10vw;
+    font-weight: 600;
+    overflow: visible;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #9A856A;
+    color: #F8EEE1;
+}
+section p{
+    font-family: 'Lobster Two', cursive;
+    color: #7A6953;
+    font-size: 1.7vw;
+    margin-bottom: 6vh;
+}
+#a{
+    text-decoration: none;
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5vw;
+    color: white;
+    background-color: #829D78;
+    height: 6vh;
+    width: 6vw;
+    padding: 15px;
+    border-radius: 35%;
+}
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    background-color: white;
+    width: 60vw;
+    height: 92vh;
+    border-radius: 20px;
+    margin-left: 1vw;
+    margin-top: 12vh;
+    padding: 2vw;
+    font-family: 'Luckiest Guy', cursive;
+    color: #7A6953;
+    font-size: 1.6vw;
+}
+legend{
+    text-align: center;
+}
+fieldset span{
+    color: red;
+}
+fieldset input{
+    font-size: 1.4vw;
+    font-family: 'Gochi Hand', cursive;
+    border-radius: 4%;
+}
+fieldset textarea{
+    font-size: 1.2vw;
+    font-family: 'Gochi Hand', cursive;
+    resize: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10vw;
+}
+.buttons a{
+    background-color: #829D78;
+    padding: 15px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+.buttons input{
+    background-color: #829D78;
+    padding: 15px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+    margin: 5px;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    padding-top: 5.5px;
+    background-color: #829D78;
+    position: fixed;
+    height: 6.2vh;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    overflow: visible;
+}
+footer section{
+    margin-left: 40px;
+}
+footer img{
+    height: 32.5px;
+    width: 32.5px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+footer p{
+    display: inline-block;
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 1.8vw;
+}
+#gmail{
+    margin-left: 55vw;
+}
+#twitter{
+    margin-left: 40px;
+}
+
+/**  **/
+
+#main2{
+    display: flex;
+    height: 100vh;
+}
+#left {
+    width: 50%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+#right {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+#vidbg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#text{
+    margin-top: 20vh;    
+}
+
+#right, #txt, #btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionp{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 200;
+}
+#txt{
+    font-size: 4.75vw;
+    color: #42382C;
+    margin-bottom: 20px;
+}
+#btn{
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+    background-color: #829D78;
+    height: 6vh;
+    width: 20vw;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/** **/
+
+.p1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.p2{
+    flex-direction: column;
+}
+#akap{
+    margin-top: 40px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4.75vw;
+    font-weight: 200;
+    color: #D1858E;
+}
+#c2{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2.71vw;
+    font-weight: 200;
+    color: #C89859;
+}
+#name1, #colon, #name2{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2.71vw;
+    font-weight: 100;
+    color: #C89859;
+}
+#colon{
+    margin-right: 10px;
+}
+#answer, #c3, #c4{
+    font-family: 'Gochi Hand', cursive;
+    color: white;
+}
+#email1, #gender1{
+    font-weight: 100;
+    font-size: 1.5vw;
+    background-color: #829D78;
+    width: 10vw;
+    margin-right: 1vw;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+#email, #gender{
+    font-size: 1.5vw;
+    font-weight: 200;
+    background-color: #829D78;
+    width: 23vw;
+    margin-left: 1vw;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+#answer{
+    font-weight: 200;
+    background-color: #829D78;
+    padding: 15px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 15px;
+}
+#c5, #akap2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.625vw;
+    font-weight: 200;
+    background-color: #829D78;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 15px;
+}
+#akap2{
+    margin-bottom: 22px;
+}
+
+/** **/
+
+.SeeMoreParagraph{
+    top: 30%;
+    margin: 100px;
+    padding: 30px;
+}
+
+.SeeMoreParagraphbox{
+    background-color: #0d3016a2 ;
+    border: 1px solid white;
+}
+
+.SeeMoreParagraphbox p{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Archivo Narrow;
+    color: rgb(255, 255, 255);
+    text-indent: 50px;
+    line-height: 1;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;  
+    text-align: justify;
+}
+
+.part1{
+    margin-top: -45vh;
+    display: inline-block;
+    background-color:   rgb(253,210,197) ;
+    left:30px;
+    margin: 5px;
+}
+
+#vbg{
+    width: 100vw;
+    height: 98vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1;
+}
