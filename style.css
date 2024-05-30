@@ -327,3 +327,7 @@ footer p{
     position: fixed;
     z-index:-1;
 }
+.images{
+    display: flex;
+    justify-content: center;
+}
